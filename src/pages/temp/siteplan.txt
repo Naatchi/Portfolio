@@ -1,0 +1,110 @@
+each element is going to be contained in a section with the id listing the element
+
+
+Navigation { space across full top of screen
+    Home
+    Projects
+    Resume
+    Contact
+}
+
+sitemap {
+    navigation {[home][projects][resume][contact]}
+    landing {[resume][projects][source][github]}
+    body {
+        about-me {[Socials]}
+        projects {
+            [dev.wynntils.com]
+            [napi-chatbox]
+            [mia-github.com/gallery/] (site inactive)
+        }
+        experience {
+            wynntils{[wynntils.com][learn-more]}
+            mine-in-abyss{[mineinabyss.com][learn-more]}
+        }
+    }
+}
+
+Landing {
+    ------------------------------------------------------------------
+    |            [home][projects][qualifications][contact]            | 
+    |                                                                 |
+    |                                                                 |
+    |                       Natalie Pahwa                             |
+    |                        -subheader-                              |
+    |                      [Resume][Projects]                         |
+    |                                         ______________          |
+    |\___     __________           __________/              \_______  | 
+    |    \___/          \_________/                         [source]\_|
+    -------------------------------------------------------------------
+
+    background will be big spaced out white shaded shapes with logos tools
+    and languages used with proficiency
+
+    keep colors flat and modern, DO NOT OVERCROWD THE HOME PAGE.
+    style should be consistant with art-deco blocky and flat colors.
+    imagine mid-century furniture, not too sharp but still not a weird blobular mess.
+}
+
+body {
+    about-me {
+        ----------------------------------------------------
+        |                                                  |
+        |      -----------          About Me               |
+        |      |         |         ----------              |
+        |      |   big   |         a whole bunch           |
+        |      |  image  |         of really cool          |
+        |      |         |              text               |
+        |      -----------           [socials]             |
+        |                                                  |
+        ----------------------------------------------------
+
+        id like to keep it just one color tbh, since it
+        would contrast the upper layer better, there should be 
+        a color pallet file somewhere that i make in the future
+        just use that. keep it easy on the eyes.
+    }
+    projects {
+        --------------------------------------
+        |__            ______________        |       
+        |  \__________/              \_______|
+        |                                    |
+        |      _____--------------_____      |
+        |      |    |            |     |     |
+        |      |    |            |     |     |
+        |      | MIA|            |Napi |     |
+        |      |    |  Wynntils  |     |     |
+        |      |    |            |     |     |
+        |      -----|            |------     |
+        |           --------------           |
+        |          [other-projects]       ___|
+        |_________                _______/###|
+        |#########\______________/###########|
+        |####################################|
+        --------------------------------------
+
+        3 primary projects on hoverable slides that expand when hovered and are
+        clickable. make a small list of other projects worked on in a little database
+        and put it in the other projects button page.
+        keep colors light but easy on the eyes and thats about it.
+        wyntils dev site should be the highlight cause its got the most work
+        put into it.
+    }
+    experience {
+        ------------------------------------------------
+        |  __________________________________________  |  
+        | | wyntils             | date-range | role  | |
+        | |------------------------------------------| |  
+        | | mine-in-abyss       | date-range | role  | |    
+        | |------------------------------------------| |
+        | | university of akron | date-range | major | |
+        | |__________________________________________| |
+        |____________                 _________________|
+        |            \_______________/                 |
+        ------------------------------------------------
+    }
+}
+
+footer {
+    
+}
