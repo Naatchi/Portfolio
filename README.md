@@ -13,7 +13,7 @@ This repository holds my portfolio site written in a myriad of languages.
 
 🏗️Frameworks - [Next.js](https://github.com/vercel/next.js/) & [Tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
-🚀Deployment - [GitHub-pages](https://pages.github.com/)
+🚀Deployment - [GitHub-pages](https://pages.github.com/) & [Node.js](https://nodejs.org/en)
 
 ---
 # Laravel Breeze - Next.js Edition 🏝️
