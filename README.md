@@ -1,3 +1,21 @@
+# What is this repository?
+## Intro
+
+This repository holds my portfolio site written in a myriad of languages.
+
+## Stack
+
+🗄️Backend - [Laravel Breeze](https://github.com/laravel/breeze) & [Laravel Sanctum](https://github.com/laravel/sanctum)
+
+💬Languages - [TypeScript: React](https://www.typescriptlang.org/docs/handbook/react.html), [JavaScript](https://www.javascript.com/), [SCSS](https://sass-lang.com/), [CSS3](https://www.css3.info/) & [HTML5](https://html.com/html5/)
+
+📚Library - [React](https://github.com/facebook/react)
+
+🏗️Frameworks - [Next.js](https://github.com/vercel/next.js/) & [Tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+
+🚀Deployment - [GitHub-pages](https://pages.github.com/)
+
+---
 # Laravel Breeze - Next.js Edition 🏝️
 
 ## Introduction
