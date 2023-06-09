@@ -1,5 +1,5 @@
-import { LandingButton, NavbarButton } from "@/components/button";
 import { Wave, WaveArray } from "@/components/waves";
+import { database } from "@/data/database";
 import { Layout } from "@/layout/layout";
 
 export default function Home() {
@@ -8,7 +8,15 @@ export default function Home() {
             page_name='Home'
             page_ref='/'
             content={
-                <a>Hewwo</a>
+                <section id='hero' className='flex'>
+                    <img
+                        title={database.images.profiles.index_picture.title}
+                        alt={database.images.profiles.index_picture.alt}
+                        src={database.images.profiles.index_picture.src}
+                    />
+                    <div> 
+                    </div>
+                </section> 
             }
         />
     )
