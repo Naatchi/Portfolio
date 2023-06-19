@@ -1,18 +1,9 @@
 import { Wave, WaveArray } from "@/components/waves";
 import { database } from "@/data/database";
-import { Layout } from "@/layout/layout";
+import styles from '@/styles/index.module.scss'
 
 export default function Home() {
-    return (
-        <Layout
-            page_name='Home'
-            page_ref='/'
-            content={
-                <>
-                    this is the content <br/>
-                    
-                </>
-            }
-        />
-    )
+    <>
+    
+    </>
 }
