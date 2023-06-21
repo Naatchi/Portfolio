@@ -4,10 +4,10 @@ export const WaveArray = [
 
 export const Wave = ({ fill, svg, id}) => {
     return (
-        <div className='relative'>
+        <div className='relative h-screen bg-siteBlack'>
             <svg
                 viewBox='0 0 1440 320'
-                className='opacity-50 relative bottom-0'
+                className='opacity-53 absolute'
                 id={id}
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill={fill} d={svg} />

@@ -9,6 +9,9 @@ module.exports = {
             ...defaultTheme.screens,
         },
         extend: {
+            opacity: {
+                '53': '.53',
+            },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },

@@ -1,4 +1,12 @@
 export const database = {
+    buttons: {
+        landing: [ // implement smooth scrolling lib
+            ['Home', '/'],
+            ['Projects', '/'],
+            ['Experience', '/'],
+            ['Contact', '/'],
+        ],
+    },
     images: {
         icons: {},
         profiles: {
@@ -17,8 +25,11 @@ export const database = {
         },
     },
     links: {
-        external: {},
-        internal: {},
+        external: {
+            github: ''
+        },
+        internal: {
+        },
     },
     colors: {
         palette: {},
